@@ -1,7 +1,7 @@
 var schools = new L.LayerGroup();
 $.get('data/schools.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude]).bindPopup(datum.school).addTo(schools);
+        L.marker([datum.latitude, datum.longitude], {icon: schoolMarker}).bindPopup(datum.school).addTo(schools);
     });
 });
 
