@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="leaflet-draw.css"/>
     <link rel="stylesheet" href="leaflet.awesome-markers.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="custom.css">
 
     <script src="leaflet.js"></script>
     <script src="leaflet-search.js"></script>
@@ -18,28 +19,7 @@
 <body>
 
 <div id="map" style="height:100%;width:100%">
-    <div class="leaflet-draw leaflet-control">
-        <div class="leaflet-draw-section">
-            <div class="leaflet-draw-toolbar leaflet-bar leaflet-draw-toolbar-top">
-                <a class="leaflet-draw-draw-marker" href="#" id="school" title="Plot a school" style="background-image:url('/images/school.png')"
-                   onclick="plot('school')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="hospital" title="Plot an hospital" style="background-image:url('/images/hospital.png')"
-                   onclick="plot('hospital')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="subway" title="Plot a subway" style="background-image:url('/images/subway.png')"
-                   onclick="plot('subway')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="toilet" title="Plot a toilet" style="background-image:url('/images/toilet.png')"
-                   onclick="plot('toilet')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="signal" title="Plot a signal" style="background-image:url('/images/signal.png')"
-                   onclick="plot('signal')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="park" title="Plot a park"  style="background-image:url('/images/park.png')"
-                   onclick="plot('park')"></a>
-                <a class="leaflet-draw-draw-marker" href="#" id="library" title="Plot a library" style="background-image:url('/images/library.png')"
-                   onclick="plot('library')"></a>
-            </div>
-        </div>
-    </div>
 </div>
-
 
 <script type="text/javascript">
     var cmAttr = '',
@@ -49,85 +29,77 @@
                 center:[13.08, 80.27],
                 zoom:10,
                 layers:[minimal]
+//                drawControl: true
             }),
-            baseLayers = {
+    baseLayers = {
                 CMA:minimal
             };
 
     overlays = {
-        "Schools":schools,
-        "Hospitals":hospitals,
-        "Subways":subways,
-        "Toilets":toilets,
-        "Traffic Signals":trafficSignals,
-        "Parks":parks,
-        "Libraries":libraries,
-        "Lakes":lakes
+        "Schools": schools,
+        "Hospitals": hospitals,
+        "Subways": subways,
+        "Toilets": toilets,
+        "Traffic Signals": trafficSignals,
+        "Parks": parks,
+        "Libraries": libraries
     };
 
     var drawnItems = new L.FeatureGroup();
     map.addLayer(drawnItems);
 
-    function plot(item) {
-        source = item;
-
-        srcIcon = L.icon({
-            iconUrl:'/images/' + item + '.png'
-        });
-
-        opts = {
-            icon:srcIcon
+    var drawControl = new L.Control.Draw({
+        draw: {
+            position: 'topleft',
+            rectangle: false,
+            polygon: false,
+            polyline: false,
+            circle: false,
+            marker1: {
+                title: 'School',
+                icon: L.icon({ iconUrl: 'images/school.png' })
+            },
+            marker2: {
+                title: 'Hospital',
+                icon: L.icon({ iconUrl: 'images/hospital.png'})
+            },
+            marker3: {
+                title: 'Subway',
+                icon: L.icon({ iconUrl: 'images/subway.png'})
+            },
+            marker4: {
+                title: 'Toilet',
+                icon: L.icon({ iconUrl: 'images/toilet.png'})
+            },
+            marker5: {
+                title: 'Traffic Signal',
+                icon: L.icon({ iconUrl: 'images/signal.png'})
+            },
+            marker6: {
+                title: 'Park',
+                icon: L.icon({ iconUrl: 'images/park.png'})
+            },
+            marker7: {
+                title: 'Library',
+                icon: L.icon({ iconUrl: 'images/library.png'})
+            }
+        },
+        edit: {
+            featureGroup: drawnItems
         }
-        var marker = new L.Draw.Marker(map, opts);
-        marker.enable();
-    }
+    });
+    map.addControl(drawControl);
 
     map.on('draw:created', function (e) {
         var type = e.layerType,
                 layer = e.layer;
-        //line - school
-        //polygon - hospital
 
         if (type === 'marker') {
-            if (source === 'school') {
-                $.get('data/schools.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            }
-            else if (source === 'hospital') {
-                $.get('data/hospitals.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-
-                });
-            }
-            else if (source === 'subway') {
-                $.get('data/subways.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            }
-            else if (source === 'toilet') {
-                $.get('data/toilets.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            }
-            else if (source === 'signal') {
-                $.get('data/trafficsignals.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            }
-            else if (source === 'park') {
-                $.get('data/parks.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            } else if (source === 'library') {
-                $.get('data/libraries.json', function (data) {
-                    data.push({"latitude":e.layer._latlng.lat, "longitude":e.layer._latlng.lng});
-                });
-            }
+            layer.bindPopup('A popup!');
         }
+
         drawnItems.addLayer(layer);
     });
-
     L.control.layers(baseLayers, overlays).addTo(map);
 
     map.addControl(new L.Control.Search({

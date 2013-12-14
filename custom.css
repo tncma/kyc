@@ -1,0 +1,21 @@
+a[title='School'] {
+    background-color: #ffb441;
+}
+a[title='Hospital'] {
+    background-color: #2ecc71;
+}
+a[title='Subway'] {
+    background-color: #782b90;
+}
+a[title='Toilet'] {
+    background-color: #f6063e;
+}
+a[title='Traffic Signal'] {
+    background-color: #3498db;
+}
+a[title='Park'] {
+    background-color: #004b47;
+}
+a[title='Library'] {
+    background-color: #f9e500;
+}
