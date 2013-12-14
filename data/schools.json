@@ -1243,7 +1243,11 @@
     "Village Panchayat":"Kancheepuram",
     "school":"K V K NAYAGAR MUNICIPAL MIDDLE SCHOOL",
     "Type":"Secondary School",
-    "FIELD12":""
+    "FIELD12":"",
+     "complaints": [
+         "Not enough class rooms",
+         "Some boards need replacement"
+     ]
   },
   {
     "pincode":632001,
@@ -2587,7 +2591,10 @@
     "Village Panchayat":"Namakkal",
     "school":"MUNICIPAL URUDU PRIMARY SCHOOL",
     "Type":"Primary School",
-    "FIELD12":""
+    "FIELD12":"",
+    "complaints": [
+        "Toilets in poor condition"
+    ]
   },
   {
     "pincode":637101,

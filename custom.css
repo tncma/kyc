@@ -22,3 +22,13 @@ a[title='Library'] {
 a[title='Lake'] {
     background-color: #3498db;
 }
+
+
+.complaints {
+    background-color: red;
+    padding: 4px;
+    padding-top: 0px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}

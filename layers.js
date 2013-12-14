@@ -2,6 +2,9 @@ var schools = new L.LayerGroup();
 $.get('data/schools.json', function (data) {
     _.each(data, function (datum) {
         L.marker([datum.latitude, datum.longitude], {icon: getIconImg('school.png')}).bindPopup(datum.school).addTo(schools);
+        if(datum.complaints != undefined) {
+            createComplaintsMarker(datum).addTo(schools);
+        }
     });
 });
 
@@ -9,6 +12,9 @@ var hospitals = new L.LayerGroup();
 $.get('data/hospitals.json', function (data) {
     _.each(data, function (datum) {
         L.marker([datum.latitude, datum.longitude], {icon: getIconImg('hospital.png')}).bindPopup(datum.Name).addTo(hospitals);
+        if(datum.complaints != undefined) {
+            createComplaintsMarker(datum.complaints).addTo(hospitals);
+        }
     });
 });
 
@@ -54,14 +60,10 @@ $.get('data/lakes.json', function(data) {
     });
 });
 
-function getIcons(iconName, color, prefix) {
-    return L.AwesomeMarkers.icon({
-        icon: iconName,
-        prefix: prefix,
-        iconSize: [38, 95],
-        markerColor: color
-    });
-};
+function createComplaintsMarker(datum) {
+    return L.marker([datum.latitude, datum.longitude], {icon: L.divIcon({className: 'complaints', html: datum.complaints.length, iconAnchor: [-5,-30]})})
+        .bindPopup(datum.complaints.join("<br/>"));
+}
 
 function getIconImg(iconName) {
     return L.icon({iconUrl: 'images/' + iconName, shadowUrl: 'images/marker-shadow.png', iconAnchor: [0, 0], shadowAnchor: [0, 10]})
