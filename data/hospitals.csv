@@ -1,26 +1,26 @@
-"V2","V1","V3","V4","V5","V6","V7","V8","V9","V10","V11","V12","NAME"
-"1",600001,"IN","Madras Gpo","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Stanley Hospital"
-"2",600001,"IN","Flower Bazar","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Stanley Hospital"
-"3",600001,"IN","Wal Tax Road","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Stanley Hospital"
-"4",600001,"IN","M P T Admn Office","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Stanley Hospital"
-"5",600003,"IN","Edapalayam","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"General Hospital"
-"6",600003,"IN","Edapalayam","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Dental College Hospital "
-"7",600003,"IN","Madras Medical College","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"General Hospital"
-"8",600003,"IN","Madras Medical College","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Dental College Hospital "
-"9",600003,"IN","Central Station","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"General Hospital"
-"10",600003,"IN","Central Station","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0656,80.2672,NA,"Dental College Hospital "
-"11",600005,"IN","Chepauk","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0594,80.2789,4,"Kasturba Gandhi Hospital For Women And Children"
-"12",600005,"IN","Madras Presidency College","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0594,80.2789,NA,"Kasturba Gandhi Hospital For Women And Children"
-"13",600005,"IN","Madras University","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0594,80.2789,NA,"Kasturba Gandhi Hospital For Women And Children"
-"14",600008,"IN","Egmore High Road","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0717,80.2556,NA,"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
-"15",600008,"IN","Egmore High Road","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0717,80.2556,NA,"Institute Of Child Health And Hospital For Children"
-"16",600008,"IN","Egmore","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0717,80.2556,4,"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
-"17",600008,"IN","Egmore","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0717,80.2556,4,"Institute Of Child Health And Hospital For Children"
-"18",600014,"IN","Ligods Estate","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0025,80.2061,NA,"Royapettah Hospital"
-"19",600014,"IN","Ligods Road","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0025,80.2061,NA,"Royapettah Hospital"
-"20",600014,"IN","Jam Bazaar","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0025,80.2061,NA,"Royapettah Hospital"
-"21",600032,"IN","Madras Race Course","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0389,80.2258,NA,"King Institute Of Preventive Medicine"
-"22",600032,"IN","Alandur North","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0389,80.2258,NA,"King Institute Of Preventive Medicine"
-"23",600032,"IN","Hindustan Teleprinters","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0389,80.2258,NA,"King Institute Of Preventive Medicine"
-"24",600047,"IN","Tambaram Sanitorium","Tamil Nadu","TN","Chennai",NA,NA,NA,13.0385,80.2345,NA,"Government Hospital For Thoracic Medicine"
-"25",600106,"IN","D G Vaishnav College","Tamil Nadu","TN","Chengai Anna",NA,NA,NA,12.9819,80.2406,NA,"Siddha Medical College"
+Pincode	Area	State	City	Latitude	Longitude	Name
+600001	Madras Gpo	Tamil Nadu	Chennai	13.0656	80.2672	Stanley Hospital
+600001	Flower Bazar	Tamil Nadu	Chennai	13.0656	80.2672	Stanley Hospital
+600001	Wal Tax Road	Tamil Nadu	Chennai	13.0656	80.2672	Stanley Hospital
+600001	M P T Admn Office	Tamil Nadu	Chennai	13.0656	80.2672	Stanley Hospital
+600003	Edapalayam	Tamil Nadu	Chennai	13.0656	80.2672	General Hospital
+600003	Edapalayam	Tamil Nadu	Chennai	13.0656	80.2672	Dental College Hospital 
+600003	Madras Medical College	Tamil Nadu	Chennai	13.0656	80.2672	General Hospital
+600003	Madras Medical College	Tamil Nadu	Chennai	13.0656	80.2672	Dental College Hospital 
+600003	Central Station	Tamil Nadu	Chennai	13.0656	80.2672	General Hospital
+600003	Central Station	Tamil Nadu	Chennai	13.0656	80.2672	Dental College Hospital 
+600005	Chepauk	Tamil Nadu	Chennai	13.0594	80.2789	Kasturba Gandhi Hospital For Women And Children
+600005	Madras Presidency College	Tamil Nadu	Chennai	13.0594	80.2789	Kasturba Gandhi Hospital For Women And Children
+600005	Madras University	Tamil Nadu	Chennai	13.0594	80.2789	Kasturba Gandhi Hospital For Women And Children
+600008	Egmore High Road	Tamil Nadu	Chennai	13.0717	80.2556	Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children
+600008	Egmore High Road	Tamil Nadu	Chennai	13.0717	80.2556	Institute Of Child Health And Hospital For Children
+600008	Egmore	Tamil Nadu	Chennai	13.0717	80.2556	Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children
+600008	Egmore	Tamil Nadu	Chennai	13.0717	80.2556	Institute Of Child Health And Hospital For Children
+600014	Ligods Estate	Tamil Nadu	Chennai	13.0025	80.2061	Royapettah Hospital
+600014	Ligods Road	Tamil Nadu	Chennai	13.0025	80.2061	Royapettah Hospital
+600014	Jam Bazaar	Tamil Nadu	Chennai	13.0025	80.2061	Royapettah Hospital
+600032	Madras Race Course	Tamil Nadu	Chennai	13.0389	80.2258	King Institute Of Preventive Medicine
+600032	Alandur North	Tamil Nadu	Chennai	13.0389	80.2258	King Institute Of Preventive Medicine
+600032	Hindustan Teleprinters	Tamil Nadu	Chennai	13.0389	80.2258	King Institute Of Preventive Medicine
+600047	Tambaram Sanitorium	Tamil Nadu	Chennai	13.0385	80.2345	Government Hospital For Thoracic Medicine
+600106	D G Vaishnav College	Tamil Nadu	Chengai Anna	12.9819	80.2406	Siddha Medical College

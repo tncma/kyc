@@ -1,58 +1,227 @@
 [
-  {
-    "NAME":"General Hospital",
-    "PINCODE":600003
-  },
-  {
-    "NAME":"Stanley Hospital",
-    "PINCODE":600001
-  },
-  {
-    "NAME":"Royapettah Hospital",
-    "PINCODE":600014
-  },
-  {
-    "NAME":"Kilpauk Medical College and Hospital",
-    "PINCODE":600010
-  },
-  {
-    "NAME":"Institute Of Child Health And Hospital For Children",
-    "PINCODE":600008
-  },
-  {
-    "NAME":"R S R M Lying - In Hospital",
-    "PINCODE":600013
-  },
-  {
-    "NAME":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children",
-    "PINCODE":600008
-  },
-  {
-    "NAME":"Institute Of Mental Health",
-    "PINCODE":600010
-  },
-  {
-    "NAME":"Institute Of Rehabilitation Medicine",
-    "PINCODE":600083
-  },
-  {
-    "NAME":"Dental College Hospital",
-    "PINCODE":600003
-  },
-  {
-    "NAME":"Kasturba Gandhi Hospital For Women And Children",
-    "PINCODE":600005
-  },
-  {
-    "NAME":"Government Hospital For Thoracic Medicine",
-    "PINCODE":600047
-  },
-  {
-    "NAME":"King Institute Of Preventive Medicine",
-    "PINCODE":600032
-  },
-  {
-    "NAME":"Siddha Medical College",
-    "PINCODE":600106
-  }
+    {
+        "Pincode":600001,
+        "Area":"Madras Gpo",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Stanley Hospital"
+    },
+    {
+        "Pincode":600001,
+        "Area":"Flower Bazar",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Stanley Hospital"
+    },
+    {
+        "Pincode":600001,
+        "Area":"Wal Tax Road",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Stanley Hospital"
+    },
+    {
+        "Pincode":600001,
+        "Area":"M P T Admn Office",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Stanley Hospital"
+    },
+    {
+        "Pincode":600003,
+        "Area":"Edapalayam",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"General Hospital"
+    },
+    {
+        "Pincode":600003,
+        "Area":"Edapalayam",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Dental College Hospital "
+    },
+    {
+        "Pincode":600003,
+        "Area":"Madras Medical College",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"General Hospital"
+    },
+    {
+        "Pincode":600003,
+        "Area":"Madras Medical College",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Dental College Hospital "
+    },
+    {
+        "Pincode":600003,
+        "Area":"Central Station",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"General Hospital"
+    },
+    {
+        "Pincode":600003,
+        "Area":"Central Station",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0656,
+        "Longitude":80.2672,
+        "Name":"Dental College Hospital "
+    },
+    {
+        "Pincode":600005,
+        "Area":"Chepauk",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0594,
+        "Longitude":80.2789,
+        "Name":"Kasturba Gandhi Hospital For Women And Children"
+    },
+    {
+        "Pincode":600005,
+        "Area":"Madras Presidency College",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0594,
+        "Longitude":80.2789,
+        "Name":"Kasturba Gandhi Hospital For Women And Children"
+    },
+    {
+        "Pincode":600005,
+        "Area":"Madras University",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0594,
+        "Longitude":80.2789,
+        "Name":"Kasturba Gandhi Hospital For Women And Children"
+    },
+    {
+        "Pincode":600008,
+        "Area":"Egmore High Road",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0717,
+        "Longitude":80.2556,
+        "Name":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
+    },
+    {
+        "Pincode":600008,
+        "Area":"Egmore High Road",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0717,
+        "Longitude":80.2556,
+        "Name":"Institute Of Child Health And Hospital For Children"
+    },
+    {
+        "Pincode":600008,
+        "Area":"Egmore",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0717,
+        "Longitude":80.2556,
+        "Name":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
+    },
+    {
+        "Pincode":600008,
+        "Area":"Egmore",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0717,
+        "Longitude":80.2556,
+        "Name":"Institute Of Child Health And Hospital For Children"
+    },
+    {
+        "Pincode":600014,
+        "Area":"Ligods Estate",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0025,
+        "Longitude":80.2061,
+        "Name":"Royapettah Hospital"
+    },
+    {
+        "Pincode":600014,
+        "Area":"Ligods Road",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0025,
+        "Longitude":80.2061,
+        "Name":"Royapettah Hospital"
+    },
+    {
+        "Pincode":600014,
+        "Area":"Jam Bazaar",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0025,
+        "Longitude":80.2061,
+        "Name":"Royapettah Hospital"
+    },
+    {
+        "Pincode":600032,
+        "Area":"Madras Race Course",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0389,
+        "Longitude":80.2258,
+        "Name":"King Institute Of Preventive Medicine"
+    },
+    {
+        "Pincode":600032,
+        "Area":"Alandur North",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0389,
+        "Longitude":80.2258,
+        "Name":"King Institute Of Preventive Medicine"
+    },
+    {
+        "Pincode":600032,
+        "Area":"Hindustan Teleprinters",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0389,
+        "Longitude":80.2258,
+        "Name":"King Institute Of Preventive Medicine"
+    },
+    {
+        "Pincode":600047,
+        "Area":"Tambaram Sanitorium",
+        "State":"Tamil Nadu",
+        "City":"Chennai",
+        "Latitude":13.0385,
+        "Longitude":80.2345,
+        "Name":"Government Hospital For Thoracic Medicine"
+    },
+    {
+        "Pincode":600106,
+        "Area":"D G Vaishnav College",
+        "State":"Tamil Nadu",
+        "City":"Chengai Anna",
+        "Latitude":12.9819,
+        "Longitude":80.2406,
+        "Name":"Siddha Medical College"
+    }
 ]
