@@ -8,7 +8,7 @@ $.get('data/schools.json', function(data) {
 var hospitals = new L.LayerGroup();
 $.get('data/hospitals.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIcons('medkit', 'red', 'fa')}).bindPopup(datum.name).addTo(hospitals);
+        L.marker([datum.latitude, datum.longitude], {icon: getIcons('medkit', 'red', 'fa')}).bindPopup(datum.Name).addTo(hospitals);
     });
 });
 
