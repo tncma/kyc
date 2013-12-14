@@ -1,7 +1,11 @@
 <html>
 <head>
-    <link rel="stylesheet" href="css/leaflet.css" />
-    <script src="js/leaflet.draw.js"></script>
+    <link rel="stylesheet" href="css/leaflet.css"/>
+    <link rel="stylesheet" href="css/leaflet-search.css"/>
+
+    <script src="scripts/leaflet.js"></script>
+    <script src="scripts/leaflet-search.js"></script>
+    <script src="scripts/leaflet.draw.js"></script>
     <script src="scripts/jquery-2.0.3.js"></script>
     <script src="scripts/underscore.js"></script>
     <script src="scripts/layers.js"></script>
@@ -26,24 +30,32 @@
     var cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
             cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png',
             minimal = L.tileLayer(cmUrl, {styleId: 22677, attribution: cmAttr}),
-            midnight = L.tileLayer(cmUrl, {styleId: 999, attribution: cmAttr}),
-            motorways = L.tileLayer(cmUrl, {styleId: 46561, attribution: cmAttr}),
-
             map = L.map('map', {
                 center: [13.08, 80.27],
                 zoom: 10,
                 layers: [minimal]
             }),
-
-            baselayers = {
+            baseLayers = {
                 CMA: minimal
             }
 
-            overlays = {
-                "Schools": schools
-            };
+    overlays = {
+        "Schools": schools
+    };
 
-    L.control.layers(baselayers, overlays).addTo(map);
+    L.control.layers(baseLayers, overlays).addTo(map);
+
+    map.addControl(new L.Control.Search({
+        url: 'http://nominatim.openstreetmap.org/search?format=json&q={s}',
+        jsonpParam: 'json_callback',
+        propertyName: 'display_name',
+        propertyLoc: ['lat', 'lon'],
+        markerLocation: true,
+        autoType: false,
+        autoCollapse: true,
+        minLength: 2,
+        zoom: 10
+    }));
 
 </script>
 </body>
