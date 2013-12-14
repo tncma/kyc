@@ -1,0 +1,47 @@
+[
+    {
+        "name":"Ambattur Lake",
+        "latitude":13.1067,
+        "longitude":80.1430
+    },
+    {
+        "name":"Chembarambakkam Lake",
+        "latitude":13.012,
+        "longitude":80.059
+    },
+    {
+        "name":"Chetpet Lake",
+        "latitude":13.0750,
+        "longitude":80.2416
+    },
+    {
+        "name":"Chitlapakkam Lake",
+        "latitude":12.9339,
+        "longitude":80.1366
+    },
+    {
+        "name":"Korattur Lake",
+        "latitude":13.1228,
+        "longitude":80.1807
+    },
+    {
+        "name":"Porur Lake",
+        "latitude":13.0340,
+        "longitude":80.1511
+    },
+    {
+        "name":"Puzhal Lake",
+        "latitude":13.152,
+        "longitude":80.171
+    },
+    {
+        "name":"Sholavaram Lake",
+        "latitude":13.2270,
+        "longitude":80.1503
+    },
+    {
+        "name":"Velachery",
+        "latitude":12.9879,
+        "longitude":80.2130
+    }
+]

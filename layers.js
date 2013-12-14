@@ -47,6 +47,13 @@ $.get('data/libraries.json', function(data) {
     });
 });
 
+var lakes = new L.LayerGroup();
+$.get('data/lakes.json', function(data) {
+    _.each(data, function(datum) {
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('library.png')}).bindPopup(datum.name).addTo(lakes);
+    });
+});
+
 function getIcons(iconName, color, prefix) {
     return L.AwesomeMarkers.icon({
         icon: iconName,
