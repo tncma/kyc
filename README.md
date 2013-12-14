@@ -5,7 +5,8 @@ Single place to Visualize, Edit all the relevant and needed information about yo
 
 **Team:**
 
-- Arun Kumar Ramanathan
+- Arunkumar Ramanathan
+- Arun Kumar S
 - Rajeshwari Krishnakumari
 - Ganapathi Subramanian
 - Sudhakar Rayavaram
