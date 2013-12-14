@@ -1,14 +1,14 @@
 <html>
 <head>
-    <link rel="stylesheet" href="css/leaflet.css"/>
-    <link rel="stylesheet" href="css/leaflet-search.css"/>
+    <link rel="stylesheet" href="leaflet.css"/>
+    <link rel="stylesheet" href="leaflet-search.css"/>
 
-    <script src="scripts/leaflet.js"></script>
-    <script src="scripts/leaflet-search.js"></script>
-    <script src="scripts/leaflet.draw.js"></script>
-    <script src="scripts/jquery-2.0.3.js"></script>
-    <script src="scripts/underscore.js"></script>
-    <script src="scripts/layers.js"></script>
+    <script src="leaflet.js"></script>
+    <script src="leaflet-search.js"></script>
+    <script src="leaflet.draw.js"></script>
+    <script src="jquery-2.0.3.js"></script>
+    <script src="underscore.js"></script>
+    <script src="layers.js"></script>
     <script src="http://cdn.leafletjs.com/leaflet-0.7.1/leaflet.js?2"></script>
 </head>
 
@@ -18,14 +18,6 @@
 </div>
 
 <script type="text/javascript">
-
-    var cities = new L.LayerGroup();
-
-    L.marker([39.61, -105.02]).bindPopup('This is Littleton, CO.').addTo(cities);
-    L.marker([39.74, -104.99]).bindPopup('This is Denver, CO.').addTo(cities);
-    L.marker([39.73, -104.8]).bindPopup('This is Aurora, CO.').addTo(cities);
-    L.marker([39.77, -105.23]).bindPopup('This is Golden, CO.').addTo(cities);
-
 
     var cmAttr = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
             cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png',
