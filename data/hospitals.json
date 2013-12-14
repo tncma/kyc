@@ -1,0 +1,58 @@
+[
+  {
+    "NAME":"General Hospital",
+    "PINCODE":600003
+  },
+  {
+    "NAME":"Stanley Hospital",
+    "PINCODE":600001
+  },
+  {
+    "NAME":"Royapettah Hospital",
+    "PINCODE":600014
+  },
+  {
+    "NAME":"Kilpauk Medical College and Hospital",
+    "PINCODE":600010
+  },
+  {
+    "NAME":"Institute Of Child Health And Hospital For Children",
+    "PINCODE":600008
+  },
+  {
+    "NAME":"R S R M Lying - In Hospital",
+    "PINCODE":600013
+  },
+  {
+    "NAME":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children",
+    "PINCODE":600008
+  },
+  {
+    "NAME":"Institute Of Mental Health",
+    "PINCODE":600010
+  },
+  {
+    "NAME":"Institute Of Rehabilitation Medicine",
+    "PINCODE":600083
+  },
+  {
+    "NAME":"Dental College Hospital",
+    "PINCODE":600003
+  },
+  {
+    "NAME":"Kasturba Gandhi Hospital For Women And Children",
+    "PINCODE":600005
+  },
+  {
+    "NAME":"Government Hospital For Thoracic Medicine",
+    "PINCODE":600047
+  },
+  {
+    "NAME":"King Institute Of Preventive Medicine",
+    "PINCODE":600032
+  },
+  {
+    "NAME":"Siddha Medical College",
+    "PINCODE":600106
+  }
+]
