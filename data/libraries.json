@@ -1,37 +1,37 @@
 [
     {
         "name":"Connemara Public Library",
-        "longitude":13.0704,
-        "latitude":80.2566
+        "latitude":13.0704,
+        "longitude":80.2566
     },
     {
         "name":"Chintadripet Library",
-        "longitude":13.0762,
-        "latitude":80.2667
+        "latitude":13.0762,
+        "longitude":80.2667
     },
     {
         "name":"Muhammed Public Library",
-        "longitude":13.0664,
-        "latitude":80.2739
+        "latitude":13.0664,
+        "longitude":80.2739
     },
     {
         "name":"Public Library",
-        "longitude":13.114,
-        "latitude":80.229
+        "latitude":13.114,
+        "longitude":80.229
     },
     {
         "name":"Public Library",
-        "longitude":13.124,
-        "latitude":80.261
+        "latitude":13.124,
+        "longitude":80.261
     },
     {
         "name":"Government Public Library",
-        "longitude":13.029,
-        "latitude":80.267
+        "latitude":13.029,
+        "longitude":80.267
     },
     {
         "name":"Anna Centenary Library",
-        "longitude":13.0170,
-        "latitude":80.2396
+        "latitude":13.0170,
+        "longitude":80.2396
     }
 ]
