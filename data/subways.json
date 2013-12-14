@@ -1,0 +1,308 @@
+[
+    {
+        "latitude": 80.290939,
+        "longitude": 13.128786,
+        "name":"Thiruvottriyur High Road Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.246810,
+        "longitude": 13.107392,
+        "name":"Jamaliah Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.248748,
+        "longitude": 13.108180,
+        "name":"Raised Tunnels on either side of existing Subway at Perambur.",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.292293,
+        "longitude": 13.093856,
+        "name":"Rajaji Salai Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.283352,
+        "longitude": 13.064389,
+        "name":"Ezhilagam Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.281948,
+        "longitude": 13.057447,
+        "name":"Kamraj Salai Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.227123,
+        "longitude": 13.035350,
+        "name":"Madley Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.228964,
+        "longitude": 13.041184,
+        "name":"Duraisamy Subway",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.273556,
+        "longitude": 13.070580,
+        "name":"Hindu Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.271717,
+        "longitude": 13.068528,
+        "name":"Anna Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.271769,
+        "longitude": 13.068111,
+        "name":"Santhi Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.264684,
+        "longitude": 13.063267,
+        "name":"LIC Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.256217,
+        "longitude": 13.056302,
+        "name":"Thousand Lights Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.253083,
+        "longitude": 13.053976,
+        "name":"Safire subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.248545,
+        "longitude": 13.046598,
+        "name":"DMS Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.226325,
+        "longitude": 13.021844,
+        "name":"Teacher Collage Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.212240,
+        "longitude": 13.008968,
+        "name":"Guindy subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.165372,
+        "longitude": 12.980975,
+        "name":"Thirisulam Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.149630,
+        "longitude": 12.968707,
+        "name":"Pallavaram Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.117064,
+        "longitude": 12.925646,
+        "name":"Tambaram Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.273229,
+        "longitude": 13.081240,
+        "name":"Park Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.275630,
+        "longitude": 13.081794,
+        "name":"Central Station Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.242689,
+        "longitude": 13.077768,
+        "name":"Kilpauk (KMC) Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.276167,
+        "longitude": 13.082636,
+        "name":"Walltax road Subway",
+        "maintainedby":"City Road Division Highway Department"
+    },
+    {
+        "latitude": 80.250243,
+        "longitude": 12.994444,
+        "name":"CPT road ",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.248505,
+        "longitude": 13.001231,
+        "name":"CPT road (Steel)",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.249561,
+        "longitude": 12.995143,
+        "name":"CPT road (Steel)",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.251098,
+        "longitude": 12.988741,
+        "name":"CPT road (Steel)",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.244193,
+        "longitude": 12.958119,
+        "name":"Perungudi",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.241598,
+        "longitude": 13.032788,
+        "name":"Sathyamoorthy Nagar",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.244233,
+        "longitude": 13.035397,
+        "name":"Sathyamoorthy Nagar",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.244567,
+        "longitude": 13.036220,
+        "name":"Thomas Road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.242992,
+        "longitude": 13.034535,
+        "name":"Anbhu Colony ",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.247894,
+        "longitude": 13.066382,
+        "name":"Haddows Road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.260990,
+        "longitude": 13.054167,
+        "name":"Peters Road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.215058,
+        "longitude": 13.061694,
+        "name":"Veerasamy 2nd Street ",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.221063,
+        "longitude": 13.069080,
+        "name":"Collectorate colony 5th Street",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.225227,
+        "longitude": 13.071799,
+        "name":"Metha Nagar",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.220551,
+        "longitude": 13.069065,
+        "name":"Connecting West Madha Koil & Indira Gandhi Nagar",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.217630,
+        "longitude": 13.066366,
+        "name":"Kannagi Street",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.217429,
+        "longitude": 13.061638,
+        "name":"West Senthil Nagar and 100 feet road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.207168,
+        "longitude": 13.078552,
+        "name":"Connecting Muthumariamman Colony and Anna Nagar 7th Main Road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.233275,
+        "longitude": 13.085852,
+        "name":"Mandapam Road Foot- Bridge",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.234292,
+        "longitude": 13.086280,
+        "name":"New Avadi Road ",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.273371,
+        "longitude": 13.124644,
+        "name":"Krishnamoorthy Salai",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.261551,
+        "longitude": 13.126882,
+        "name":"Connecting East and West Indira Nagar",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.281917,
+        "longitude": 13.082497,
+        "name":"Muthusamy Iyer Road (Shed)",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.246065,
+        "longitude": 13.137910,
+        "name":"Chinna Kulanthai Street &Chinna Thambiran Street",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.247716,
+        "longitude": 13.129868,
+        "name":"Kaveri Salai- Tondiarpet High Road",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.249412,
+        "longitude": 13.124741,
+        "name":"Ambedkar Salai- Ethiraj samy Salai",
+        "maintainedby":"Chennai Municipal Corporation"
+    },
+    {
+        "latitude": 80.246737,
+        "longitude": 13.129401,
+        "name":"connecting Muthamizh nagar 145th street and chinna Kodungaiyur Salai",
+        "maintainedby":"Chennai Municipal Corporation"
+    }
+]

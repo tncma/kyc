@@ -1,0 +1,232 @@
+[
+    {
+        "latitude":80.2776750000000000,
+        "longitude":13.0784230000000000,
+        "area":"Central Station"
+    },
+    {
+        "latitude":80.2788230000000000,
+        "longitude":13.0784160000000000,
+        "area":"Pallavent Salai Slum"
+    },
+    {
+        "latitude":80.2798320000000000,
+        "longitude":13.0784050000000000,
+        "area":"Pallavent Salai Slum"
+    },
+    {
+        "latitude":80.2779989999999000,
+        "longitude":13.0832430000000000,
+        "area":"Central Station"
+    },
+    {
+        "latitude":80.236172000000000,
+        "longitude":13.068001000000000,
+        "area":"Harrington Road 7th Avenue"
+    },
+    {
+        "latitude":80.236628000000000,
+        "longitude":13.067438000000000,
+        "area":"Harrington Road 6th Avenue"
+    },
+    {
+        "latitude":80.237824,
+        "longitude":13.054879000000000,
+        "area":"Kamarajapuram 1st street (South)"
+    },
+    {
+        "latitude":80.237713,
+        "longitude":13.055684000000000,
+        "area":"Kamarajapuram 1st street (Centre)"
+    },
+    {
+        "latitude":80.237785,
+        "longitude":13.056312000000000,
+        "area":"Kamarajapuram 1st street (North)"
+    },
+    {
+        "latitude":80.241534,
+        "longitude":13.056042000000000,
+        "area":"Independence Day Park backside, Valluvarkottam H. road"
+    },
+    {
+        "latitude":80.241271,
+        "longitude":13.053173000000000,
+        "area":"Lake area, Valluvar Kottam High Road"
+    },
+    {
+        "latitude":80.241238999999900,
+        "longitude":13.062446000000000,
+        "area":"Jayalakshmi puram 1st Street"
+    },
+    {
+        "latitude":80.239851,
+        "longitude":13.061248000000000,
+        "area":"Jayalakshmi puram 4th Street"
+    },
+    {
+        "latitude":80.239611000000000,
+        "longitude":13.061811000000000,
+        "area":"Jayalakshmi puram 2nd Street"
+    },
+    {
+        "latitude":80.2383130000000000,
+        "longitude":13.0627760000000000,
+        "area":"Triplicane"
+    },
+    {
+        "latitude":80.2774750000000000,
+        "longitude":13.0513580000000000,
+        "area":"Triplicane"
+    },
+    {
+        "latitude":80.2774970000000000,
+        "longitude":13.0541630000000000,
+        "area":"Triplicane"
+    },
+    {
+        "latitude":80.2383720000000000,
+        "longitude":13.0628130000000000,
+        "area":"Triplicane"
+    },
+    {
+        "latitude":80.2796429999999000,
+        "longitude":13.0577400000000000,
+        "area":"Triplicane"
+    },
+    {
+        "latitude":80.230878,
+        "longitude":13.050676000000000,
+        "area":"Mambalam High Road"
+    },
+    {
+        "latitude":80.236071,
+        "longitude":13.049860000000000,
+        "area":"Sarathy Street"
+    },
+    {
+        "latitude":80.24709900000001   ,
+        "longitude":13.049186000000000,
+        "area":" Gurunanak temple"
+    },
+    {
+        "latitude":80.246628   ,
+        "longitude":13.043101000000000,
+        "area":"VijayaRahavan Road"
+    },
+    {
+        "latitude":80.244607,
+        "longitude":13.035935000000000,
+        "area":"Aaliamuran Road"
+    },
+    {
+        "latitude":80.245852 ,
+        "longitude":13.039579000000000,
+        "area":"Theyagaraya Road"
+    },
+    {
+        "latitude":80.25727500000001,
+        "longitude":13.026171000000000,
+        "area":"R.A. Puram "
+    },
+    {
+        "latitude":80.26152500000001,
+        "longitude":13.029663000000000,
+        "area":"St Mary's Road"
+    },
+    {
+        "latitude":80.267596,
+        "longitude":13.030784000000000,
+        "area":"Venkatesa Agraharam Road"
+    },
+    {
+        "latitude":80.267222,
+        "longitude":13.034797000000000,
+        "area":"Mylapore Lala Garden"
+    },
+    {
+        "latitude":80.266672,
+        "longitude":13.033875000000000,
+        "area":"Mylapore"
+    },
+    {
+        "latitude":80.27134100000001,
+        "longitude":13.033818000000000,
+        "area":"Mylapore North Mada Street"
+    },
+    {
+        "latitude":80.26785200000001 ,
+        "longitude":13.036050000000000,
+        "area":"Mylapore"
+    },
+    {
+        "latitude":80.270312000000000,
+        "longitude":13.036832000000000,
+        "area":"Ramakrishna Puram"
+    },
+    {
+        "latitude":80.271041000000000,
+        "longitude":13.038238000000000,
+        "area":"M.K. AmmanKoil"
+    },
+    {
+        "latitude":80.274517000000000,
+        "longitude":13.042317000000000,
+        "area":"Ambethkar bridge"
+    },
+    {
+        "latitude":80.279781000000000,
+        "longitude":13.035022000000000,
+        "area":"Marina Beach"
+    },
+    {
+        "latitude":80.278885000000000,
+        "longitude":13.030617000000000,
+        "area":"Light House"
+    },
+    {
+        "latitude":80.274576000000000,
+        "longitude":13.036607000000000,
+        "area":"Bhaza garden"
+    },
+    {
+        "latitude":80.27453300000001,
+        "longitude":13.04113,
+        "area":"Karaneeshwarar Pagoda Street"
+    },
+    {
+        "latitude":80.279963000000000,
+        "longitude":13.041609,
+        "area":"Marina Beach"
+    },
+    {
+        "latitude":80.20285199999999,
+        "longitude":13.042879000000000,
+        "area":"K.K Nagar"
+    },
+    {
+        "latitude":80.20285199999999,
+        "longitude":13.042879000000000,
+        "area":"K.K Nagar"
+    },
+    {
+        "latitude":80.204853,
+        "longitude":13.040631000000000,
+        "area":"K.K Nagar,  Sivan park"
+    },
+    {
+        "latitude":80.2530200000000000,
+        "longitude":13.0219380000000000,
+        "area":"R.A. Puram "
+    },
+    {
+        "latitude":80.25735,
+        "longitude":13.023969000000000,
+        "area":"Illango Street"
+    },
+    {
+        "latitude":80.2592260000000000,
+        "longitude":13.0223520000000000,
+        "area":"R. A Puram"
+    }
+]
