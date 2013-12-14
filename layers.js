@@ -33,6 +33,20 @@ $.get('data/trafficsignals.json', function(data) {
     });
 });
 
+var parks = new L.LayerGroup();
+$.get('data/parks.json', function(data) {
+    _.each(data, function(datum) {
+        L.marker([datum.latitude, datum.longitude], {icon: getIcons('book', 'red', 'fa')}).bindPopup(datum.name).addTo(parks);
+    });
+});
+
+var libraries = new L.LayerGroup();
+$.get('data/libraries.json', function(data) {
+    _.each(data, function(datum) {
+        L.marker([datum.latitude, datum.longitude], {icon: getIcons('book', 'red', 'fa')}).bindPopup(datum.name).addTo(libraries);
+    });
+});
+
 var getIcons = function (iconName, color, prefix) {
   return L.AwesomeMarkers.icon({
        icon: iconName,
