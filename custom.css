@@ -11,11 +11,14 @@ a[title='Toilet'] {
     background-color: #f6063e;
 }
 a[title='Traffic Signal'] {
-    background-color: #3498db;
+    background-color: #ccc2c0;
 }
 a[title='Park'] {
     background-color: #004b47;
 }
 a[title='Library'] {
     background-color: #f9e500;
+}
+a[title='Lake'] {
+    background-color: #3498db;
 }
