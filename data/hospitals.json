@@ -4,8 +4,8 @@
         "Area":"Madras Gpo",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Stanley Hospital"
     },
     {
@@ -13,8 +13,8 @@
         "Area":"Flower Bazar",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Stanley Hospital"
     },
     {
@@ -22,8 +22,8 @@
         "Area":"Wal Tax Road",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Stanley Hospital"
     },
     {
@@ -31,8 +31,8 @@
         "Area":"M P T Admn Office",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Stanley Hospital"
     },
     {
@@ -40,8 +40,8 @@
         "Area":"Edapalayam",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"General Hospital"
     },
     {
@@ -49,8 +49,8 @@
         "Area":"Edapalayam",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Dental College Hospital "
     },
     {
@@ -58,8 +58,8 @@
         "Area":"Madras Medical College",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"General Hospital"
     },
     {
@@ -67,8 +67,8 @@
         "Area":"Madras Medical College",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Dental College Hospital "
     },
     {
@@ -76,8 +76,8 @@
         "Area":"Central Station",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"General Hospital"
     },
     {
@@ -85,8 +85,8 @@
         "Area":"Central Station",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0656,
-        "Longitude":80.2672,
+        "latitude":13.0656,
+        "longitude":80.2672,
         "Name":"Dental College Hospital "
     },
     {
@@ -94,8 +94,8 @@
         "Area":"Chepauk",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0594,
-        "Longitude":80.2789,
+        "latitude":13.0594,
+        "longitude":80.2789,
         "Name":"Kasturba Gandhi Hospital For Women And Children"
     },
     {
@@ -103,8 +103,8 @@
         "Area":"Madras Presidency College",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0594,
-        "Longitude":80.2789,
+        "latitude":13.0594,
+        "longitude":80.2789,
         "Name":"Kasturba Gandhi Hospital For Women And Children"
     },
     {
@@ -112,8 +112,8 @@
         "Area":"Madras University",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0594,
-        "Longitude":80.2789,
+        "latitude":13.0594,
+        "longitude":80.2789,
         "Name":"Kasturba Gandhi Hospital For Women And Children"
     },
     {
@@ -121,8 +121,8 @@
         "Area":"Egmore High Road",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0717,
-        "Longitude":80.2556,
+        "latitude":13.0717,
+        "longitude":80.2556,
         "Name":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
     },
     {
@@ -130,8 +130,8 @@
         "Area":"Egmore High Road",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0717,
-        "Longitude":80.2556,
+        "latitude":13.0717,
+        "longitude":80.2556,
         "Name":"Institute Of Child Health And Hospital For Children"
     },
     {
@@ -139,8 +139,8 @@
         "Area":"Egmore",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0717,
-        "Longitude":80.2556,
+        "latitude":13.0717,
+        "longitude":80.2556,
         "Name":"Institute Of Obstetrics And Gynaecology And Government Hospital For Women And Children"
     },
     {
@@ -148,8 +148,8 @@
         "Area":"Egmore",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0717,
-        "Longitude":80.2556,
+        "latitude":13.0717,
+        "longitude":80.2556,
         "Name":"Institute Of Child Health And Hospital For Children"
     },
     {
@@ -157,8 +157,8 @@
         "Area":"Ligods Estate",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0025,
-        "Longitude":80.2061,
+        "latitude":13.0025,
+        "longitude":80.2061,
         "Name":"Royapettah Hospital"
     },
     {
@@ -166,8 +166,8 @@
         "Area":"Ligods Road",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0025,
-        "Longitude":80.2061,
+        "latitude":13.0025,
+        "longitude":80.2061,
         "Name":"Royapettah Hospital"
     },
     {
@@ -175,8 +175,8 @@
         "Area":"Jam Bazaar",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0025,
-        "Longitude":80.2061,
+        "latitude":13.0025,
+        "longitude":80.2061,
         "Name":"Royapettah Hospital"
     },
     {
@@ -184,8 +184,8 @@
         "Area":"Madras Race Course",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0389,
-        "Longitude":80.2258,
+        "latitude":13.0389,
+        "longitude":80.2258,
         "Name":"King Institute Of Preventive Medicine"
     },
     {
@@ -193,8 +193,8 @@
         "Area":"Alandur North",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0389,
-        "Longitude":80.2258,
+        "latitude":13.0389,
+        "longitude":80.2258,
         "Name":"King Institute Of Preventive Medicine"
     },
     {
@@ -202,8 +202,8 @@
         "Area":"Hindustan Teleprinters",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0389,
-        "Longitude":80.2258,
+        "latitude":13.0389,
+        "longitude":80.2258,
         "Name":"King Institute Of Preventive Medicine"
     },
     {
@@ -211,8 +211,8 @@
         "Area":"Tambaram Sanitorium",
         "State":"Tamil Nadu",
         "City":"Chennai",
-        "Latitude":13.0385,
-        "Longitude":80.2345,
+        "latitude":13.0385,
+        "longitude":80.2345,
         "Name":"Government Hospital For Thoracic Medicine"
     },
     {
@@ -220,8 +220,8 @@
         "Area":"D G Vaishnav College",
         "State":"Tamil Nadu",
         "City":"Chengai Anna",
-        "Latitude":12.9819,
-        "Longitude":80.2406,
+        "latitude":12.9819,
+        "longitude":80.2406,
         "Name":"Siddha Medical College"
     }
 ]
