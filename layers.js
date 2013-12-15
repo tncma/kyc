@@ -60,6 +60,13 @@ $.get('data/lakes.json', function(data) {
     });
 });
 
+var corporationOffices = new L.LayerGroup();
+$.get('data/corporationoffices.json', function(data) {
+    _.each(data, function(datum) {
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('lake.png')}).bindPopup(datum.name).addTo(corporationOffices);
+    });
+});
+
 function createComplaintsMarker(datum) {
     return L.marker([datum.latitude, datum.longitude], {icon: L.divIcon({className: 'complaints', html: datum.complaints.length, iconAnchor: [-5,-30]})})
         .bindPopup(datum.complaints.join("<br/>"));
