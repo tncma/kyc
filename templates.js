@@ -1,7 +1,7 @@
 var commentsTemplate = function (id, type) {
-    return "<div class='comments' data-id=" + id + " data-type= " + type + ">" +
-        "Type: <select><options><option>Suggestion</option></options><options>Complaint</options></select><br>" +
-        "Comments: <textarea></textarea><br>" +
+    return "<hr><div class='comments' data-id=" + id + " data-type= " + type + ">" +
+        "Type: <select><options><option>Complaint</option><option>Suggestion</option></options></select><br>" +
+        "<textarea id='comment'></textarea><br>" +
         "<button>Save</button>"+
         "</div>";
 }

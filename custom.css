@@ -26,6 +26,11 @@ a[title='Corporation Office'] {
     background-color: #9a6352;
 }
 
+#comment{
+resize: none;
+    border-radius: 5px;
+}
+
 
 .complaints {
     background-color: red;
