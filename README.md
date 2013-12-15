@@ -6,10 +6,12 @@ An integrated grievance redressal website for CMA officials and public to connec
 KYC features:
 
 - for the public
+
       1. Locate public facilities in your locality through a search on the map
       2. Raise complaints about facilities to bring them to the authority's notice.
 
--for the CMA
+- for the CMA
+
       1. Search by area on the map
       2. Add, Edit and Delete public facilities (hospitals, parks, libraries etc.)
       3. View the complaints raised for various public facilities
