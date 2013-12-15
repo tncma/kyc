@@ -23,9 +23,10 @@ An integrated grievance redressal website for CMA officials and public to connec
 
 *Technical Details:*
 
-      1. All open source technologies (OpenStreetMaps, Leaflet.js)
-      2. Flexibility to connect to any data source (via http)
-      3. Can be easily adapted to Indian languages (I18n)
+      1. Responsive UI (Works on smart phones, tablets)
+      2. All open source technologies (OpenStreetMaps, Leaflet.js)
+      3. Flexibility to connect to any data source (via http)
+      4. Can be easily adapted to Indian languages (I18n)
       
 
 **Team:**
