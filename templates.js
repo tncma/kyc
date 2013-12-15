@@ -6,3 +6,6 @@ var commentsTemplate = function (id, type) {
         "</div>";
 }
 
+var newMarker = function(){
+    return "<form>Name:<input type='text'><button>Save</button></form>";
+}
