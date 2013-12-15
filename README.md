@@ -3,7 +3,10 @@ Know your City (KYC)
 
 An integrated grievance redressal website for CMA officials and public to connect effectively for a better tomorrow.
 
+Site: http://tncma.github.io/kyc/
+
 ![Image](https://raw.github.com/tncma/kyc/master/kyc.png)
+
 
 *KYC features:*
 
