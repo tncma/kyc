@@ -5,7 +5,7 @@ An integrated grievance redressal website for CMA officials and public to connec
 
 ![Image](https://raw.github.com/tncma/kyc/master/kyc.png)
 
-KYC features:
+*KYC features:*
 
 - for the public
 
@@ -19,6 +19,14 @@ KYC features:
       3. View the complaints raised for various public facilities
       4. Consolidation of user complaints at an area level
       5. Report action taken on user complaints
+
+
+*Technical Details:*
+
+      1. All open source technologies (OpenStreetMaps, Leaflet.js)
+      2. Flexibility to connect to any data source (via http)
+      3. Can be easily adapted to Indian languages (I18n)
+      
 
 **Team:**
 
