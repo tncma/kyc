@@ -32,6 +32,10 @@ resize: none;
     width:125px;
 }
 
+.comments{
+    align-content: center;
+}
+
 
 .complaints {
     background-color: red;
