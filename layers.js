@@ -1,7 +1,7 @@
 var schools = new L.LayerGroup();
 $.get('data/schools.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('school.png')}).bindPopup(datum.school + getCommentsHtmlTags()).addTo(schools);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('school.png')}).bindPopup(datum.school + commentsTemplate(datum.id, "schools")).addTo(schools);
         if(datum.complaints != undefined) {
             createComplaintsMarker(datum).addTo(schools);
         }
@@ -11,7 +11,7 @@ $.get('data/schools.json', function (data) {
 var hospitals = new L.LayerGroup();
 $.get('data/hospitals.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('hospital.png')}).bindPopup(datum.Name).addTo(hospitals);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('hospital.png')}).bindPopup(datum.Name + commentsTemplate(datum.id, "hospitals")).addTo(hospitals);
         if(datum.complaints != undefined) {
             createComplaintsMarker(datum.complaints).addTo(hospitals);
         }
@@ -21,42 +21,42 @@ $.get('data/hospitals.json', function (data) {
 var subways = new L.LayerGroup();
 $.get('data/subways.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('subway.png')}).bindPopup(datum.name).addTo(subways);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('subway.png')}).bindPopup(datum.name + commentsTemplate(datum.id, "subways")).addTo(subways);
     });
 });
 
 var toilets = new L.LayerGroup();
 $.get('data/toilets.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('toilet.png')}).bindPopup(datum.area).addTo(toilets);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('toilet.png')}).bindPopup(datum.area + commentsTemplate(datum.id, "toilets")).addTo(toilets);
     });
 });
 
 var trafficSignals = new L.LayerGroup();
 $.get('data/trafficsignals.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('signal.png')}).bindPopup(datum.area).addTo(trafficSignals);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('signal.png')}).bindPopup(datum.area + commentsTemplate(datum.id, "trafficSignals")).addTo(trafficSignals);
     });
 });
 
 var parks = new L.LayerGroup();
 $.get('data/parks.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('park.png')}).bindPopup(datum.name).addTo(parks);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('park.png')}).bindPopup(datum.name + commentsTemplate(datum.id, "parks")).addTo(parks);
     });
 });
 
 var libraries = new L.LayerGroup();
 $.get('data/libraries.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('library.png')}).bindPopup(datum.name).addTo(libraries);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('library.png')}).bindPopup(datum.name + commentsTemplate(datum.id, "libraries")).addTo(libraries);
     });
 });
 
 var lakes = new L.LayerGroup();
 $.get('data/lakes.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('lake.png')}).bindPopup(datum.name).addTo(lakes);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('lake.png')}).bindPopup(datum.name + commentsTemplate(datum.id, "lakes")).addTo(lakes);
     });
 });
 
