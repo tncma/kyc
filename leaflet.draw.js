@@ -2142,7 +2142,8 @@
             marker5: {},
             marker6: {},
             marker7: {},
-            marker8: {}
+            marker8: {},
+            marker9: {}
         },
 
         initialize: function (options) {
@@ -2283,6 +2284,16 @@
                     buttonIndex++,
                     buttonClassPrefix,
                     this.options.marker8.title
+                );
+            }
+
+            if (this.options.marker9) {
+                this._initModeHandler(
+                    new L.Draw.Marker(map, this.options.marker9),
+                    this._toolbarContainer,
+                    buttonIndex++,
+                    buttonClassPrefix,
+                    this.options.marker9.title
                 );
             }
 

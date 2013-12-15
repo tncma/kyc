@@ -63,7 +63,7 @@ $.get('data/lakes.json', function(data) {
 var corporationOffices = new L.LayerGroup();
 $.get('data/corporationoffices.json', function(data) {
     _.each(data, function(datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('lake.png')}).bindPopup(datum.name).addTo(corporationOffices);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('corporation.png')}).bindPopup(datum.name).addTo(corporationOffices);
     });
 });
 
