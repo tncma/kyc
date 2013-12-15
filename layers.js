@@ -1,7 +1,7 @@
 var schools = new L.LayerGroup();
 $.get('data/schools.json', function (data) {
     _.each(data, function (datum) {
-        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('school.png')}).bindPopup(datum.school).addTo(schools);
+        L.marker([datum.latitude, datum.longitude], {icon: getIconImg('school.png')}).bindPopup(datum.school + getCommentsHtmlTags()).addTo(schools);
         if(datum.complaints != undefined) {
             createComplaintsMarker(datum).addTo(schools);
         }
@@ -67,6 +67,10 @@ function createComplaintsMarker(datum) {
 
 function getIconImg(iconName) {
     return L.icon({iconUrl: 'images/' + iconName, shadowUrl: 'images/marker-shadow.png', iconAnchor: [0, 0], shadowAnchor: [0, 10]})
+}
+
+function getCommentsHtmlTags() {
+    return "<p>Comments: <textarea rows=3 cols=20></textarea></p><p><button>Save</button></p>";
 }
 
 

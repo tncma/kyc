@@ -1,47 +1,56 @@
 [
     {
-        "name":"Ambattur Lake",
-        "latitude":13.1067,
-        "longitude":80.1430
+        "name": "Ambattur Lake",
+        "latitude": 13.1067,
+        "longitude": 80.143,
+        "id": 1
     },
     {
-        "name":"Chembarambakkam Lake",
-        "latitude":13.012,
-        "longitude":80.059
+        "name": "Chembarambakkam Lake",
+        "latitude": 13.012,
+        "longitude": 80.059,
+        "id": 2
     },
     {
-        "name":"Chetpet Lake",
-        "latitude":13.0750,
-        "longitude":80.2416
+        "name": "Chetpet Lake",
+        "latitude": 13.075,
+        "longitude": 80.2416,
+        "id": 3
     },
     {
-        "name":"Chitlapakkam Lake",
-        "latitude":12.9339,
-        "longitude":80.1366
+        "name": "Chitlapakkam Lake",
+        "latitude": 12.9339,
+        "longitude": 80.1366,
+        "id": 4
     },
     {
-        "name":"Korattur Lake",
-        "latitude":13.1228,
-        "longitude":80.1807
+        "name": "Korattur Lake",
+        "latitude": 13.1228,
+        "longitude": 80.1807,
+        "id": 5
     },
     {
-        "name":"Porur Lake",
-        "latitude":13.0340,
-        "longitude":80.1511
+        "name": "Porur Lake",
+        "latitude": 13.034,
+        "longitude": 80.1511,
+        "id": 6
     },
     {
-        "name":"Puzhal Lake",
-        "latitude":13.152,
-        "longitude":80.171
+        "name": "Puzhal Lake",
+        "latitude": 13.152,
+        "longitude": 80.171,
+        "id": 7
     },
     {
-        "name":"Sholavaram Lake",
-        "latitude":13.2270,
-        "longitude":80.1503
+        "name": "Sholavaram Lake",
+        "latitude": 13.227,
+        "longitude": 80.1503,
+        "id": 8
     },
     {
-        "name":"Velachery",
-        "latitude":12.9879,
-        "longitude":80.2130
+        "name": "Velachery",
+        "latitude": 12.9879,
+        "longitude": 80.213,
+        "id": 9
     }
 ]
