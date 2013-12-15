@@ -1,38 +1,38 @@
 [
     {
-        "id":1,
-        "name":"Corporation of Chennai - Zone III",
-        "latitude":13.1579,
-        "longitude":80.2055
+        "id": 1,
+        "name": "Corporation of Chennai - Zone III",
+        "latitude": 13.1579,
+        "longitude": 80.2055
     },
     {
-        "id":2,
-        "name":"Corporation of Chennai - Zonal Office",
-        "latitude":13.039,
-        "longitude":80.223
+        "id": 2,
+        "name": "Corporation of Chennai - Zonal Office",
+        "latitude": 13.039,
+        "longitude": 80.223
     },
     {
-        "id":3,
-        "name":"Corporation of Chennai - Porur Office",
-        "latitude":13.030,
-        "longitude":80.164
+        "id": 3,
+        "name": "Corporation of Chennai - Porur Office",
+        "latitude": 13.030,
+        "longitude": 80.164
     },
     {
-        "id":4,
-        "name":"Corporation of Chennai - Zonal Office",
-        "latitude":13.099,
-        "longitude":80.242
+        "id": 4,
+        "name": "Corporation of Chennai - Zonal Office",
+        "latitude": 13.099,
+        "longitude": 80.242
     },
     {
-        "id":5,
-        "name":"Rippon Building",
-        "latitude":13.083,
-        "longitude":80.271
+        "id": 5,
+        "name": "Rippon Building",
+        "latitude": 13.083,
+        "longitude": 80.271
     },
     {
-        "id":6,
-        "name":"Corporation of Chennai",
-        "latitude":13.0048,
-        "longitude":80.2570
+        "id": 6,
+        "name": "Corporation of Chennai",
+        "latitude": 13.0048,
+        "longitude": 80.2570
     }
 ]
