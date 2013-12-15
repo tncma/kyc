@@ -46,7 +46,8 @@
         "Traffic Signals": trafficSignals,
         "Parks": parks,
         "Libraries": libraries,
-        "Lakes": lakes
+        "Lakes": lakes,
+        "Corporation Offices": corporationOffices
     };
 
     var drawnItems = new L.FeatureGroup();
@@ -90,6 +91,10 @@
             marker8: {
                 title: 'Lake',
                 icon: L.icon({ iconUrl: 'images/lake.png'})
+            },
+            marker9: {
+                title: 'Corporation Office',
+                icon: L.icon({ iconUrl: 'images/corporation.png'})
             }
         },
         edit: {
