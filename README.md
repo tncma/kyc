@@ -21,7 +21,7 @@ An integrated grievance redressal website for CMA officials and public to connec
       5. Report action taken on user complaints
 
 
-*Technical Details:*
+*Technical Features:*
 
       1. Responsive UI (Works on smart phones, tablets)
       2. All open source technologies (OpenStreetMaps, Leaflet.js)
