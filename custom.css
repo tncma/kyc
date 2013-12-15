@@ -37,10 +37,83 @@ resize: none;
 }
 
 
-.complaints {
-    background-color: red;
-    padding: 4px;
+.school-complaints {
+    background-color: #ffb441;
+    padding: 8px;
     padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.hospital-complaints {
+    background-color: #2ecc71;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.subway-complaints {
+    background-color: #782b90;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.toilet-complaints {
+    background-color: #f6063e;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.signal-complaints {
+    background-color: #ccc2c0;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.park-complaints {
+    background-color: #004b47;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.library-complaints {
+    background-color: #f9e500;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.lake-complaints {
+    background-color: #3498db;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+}
+.office-complaints {
+    background-color: #9a6352;
+    padding: 8px;
+    padding-top: 0px;
+    z-index: 1000 !important;
     border: 1px solid white;
     border-radius: 5px;
     color: white;

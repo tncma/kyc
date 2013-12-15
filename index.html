@@ -2,20 +2,22 @@
 <head>
     <link rel="stylesheet" href="leaflet.css"/>
     <link rel="stylesheet" href="leaflet-search.css"/>
+    <link rel="stylesheet" href="MarkerCluster.css"/>
+    <link rel="stylesheet" href="MarkerCluster.Default.css"/>
     <link rel="stylesheet" href="leaflet-draw.css"/>
     <link rel="stylesheet" href="leaflet.awesome-markers.css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="custom.css">
 
     <script src="leaflet.js"></script>
+    <script src="leaflet.markercluster.js"></script>
     <script src="leaflet-search.js"></script>
     <script src="leaflet.draw.js"></script>
-    <script src="leaflet.awesome-markers.min.js"></script>
     <script src="jquery-2.0.3.js"></script>
     <script src="underscore.js"></script>
     <script src="templates.js"></script>
     <script src="layers.js"></script>
-    <script src="templates.js"></script>
+    <script src="leaflet.awesome-markers.min.js"></script>
 </head>
 
 <body>
@@ -24,7 +26,7 @@
 </div>
 
 <script type="text/javascript">
-    var cmAttr = '',
+   var cmAttr = '',
             cmUrl = 'http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/{styleId}/256/{z}/{x}/{y}.png',
             minimal = L.tileLayer(cmUrl, {styleId:22677, attribution:cmAttr}),
             map = L.map('map', {
@@ -45,8 +47,7 @@
         "Traffic Signals": trafficSignals,
         "Parks": parks,
         "Libraries": libraries,
-        "Lakes": lakes,
-        "Corporation Offices": corporationOffices
+        "Lakes": lakes
     };
 
     var drawnItems = new L.FeatureGroup();
@@ -90,10 +91,6 @@
             marker8: {
                 title: 'Lake',
                 icon: L.icon({ iconUrl: 'images/lake.png'})
-            },
-            marker9: {
-                title: 'Corporation Office',
-                icon: L.icon({ iconUrl: 'images/corporation.png'})
             }
         },
         edit: {
